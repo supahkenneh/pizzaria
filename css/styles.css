@@ -1,0 +1,150 @@
+body{
+  background-color: khaki;
+  background-image: linear-gradient(khaki, orange, orangered);
+}
+
+#fix1 {
+  float: left;
+}
+
+#fix2{
+  float: right;
+}
+
+
+#name {
+  font-size: 60px;
+  font-family:Unica One, cursive;
+  text-align: center;
+}
+
+#tagLine {
+  font-size: 30px;
+  font-family: Vollkorn, serif;
+}
+
+.guide {
+  display: inline;
+  font-size: 26px;
+  font-family: Vollkorn, serif;
+}
+
+h1, #tagLine, #topMenu{
+  text-align: center;
+}
+
+img {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.sectionTitle{
+  font-size: 28px;
+  text-align: center;
+  font-family:Unica One, cursive;
+  text-decoration: underline;
+}
+
+#today {
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+}
+
+#special{
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: crimson;
+  animation-name: special;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+  font-family: Vollkorn, serif;
+}
+
+@keyframes special{
+  from {color: red;}
+  to {color: blue;}
+}
+
+#menu{
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+  font-family: Vollkorn, serif;
+}
+
+.pizzaName {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  text-align: center;
+}
+
+.price {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.socialMedia, .location{
+  font-weight: bold;
+  font-size: 26px;
+  font-family:Unica One, cursive;
+  text-decoration: underline;
+}
+
+#IG {
+  font-size: 18px;
+  list-style-image: url("https://imageresize.org/api/v1/images/3d3f854c-3c88-4874-aae1-5d725ae55306?contentDispositionFilename=580b57fcd9996e24bc43c521");
+}
+
+#FB {
+  font-size: 18px;
+  list-style-image: url("https://imageresize.org/api/v1/images/3cdeb05f-1761-4f47-8c69-afe5038f95b7?contentDispositionFilename=fb-art")
+}
+
+#TT {
+  font-size: 18px;
+  list-style-image: url("https://imageresize.org/api/v1/images/f6442f87-9c96-4d52-84ef-ba88beb67006?contentDispositionFilename=DI-Twitter")
+}
+
+#IG, #FB, #TT{
+  font-family: Vollkorn, serif;
+}
+
+#deal {
+  font-size: 18px; 
+  font-family: Vollkorn, serif;
+}
+
+input {
+  padding: 3px;
+  width: 25%;
+}
+
+#addy{
+  font-size: 18px;
+  font-family: Vollkorn, serif; 
+}
+
+#hours{
+  text-align: center;
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+}
+
+.content {
+  font-family: Vollkorn, serif;
+}
